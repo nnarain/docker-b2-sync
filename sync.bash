@@ -1,4 +1,4 @@
 #/bin/bash
 
-/usr/local/bin/b2 sync --delete --replaceNewer ${INPUT_DIR} b2://${BUCKET_NAME}/
+/usr/local/bin/b2 sync --delete --replace-newer ${INPUT_DIR} b2://${BUCKET_NAME}/
 
